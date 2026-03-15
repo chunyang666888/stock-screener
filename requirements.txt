@@ -1,0 +1,3 @@
+# Runtime: standard library only.
+# Dev / tests:
+pytest>=7.0

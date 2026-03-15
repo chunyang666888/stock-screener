@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stock-screener"
+version = "0.1.0"
+description = "Composable factor screener for equity selection (valuation, momentum, size, trend) with a sample dataset."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Chunyang Gao" }]
+keywords = ["quant", "screener", "stock-selection", "factor", "value", "momentum"]
+
+[tool.setuptools.packages.find]
+include = ["screener*"]
